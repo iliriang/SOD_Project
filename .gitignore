@@ -1,0 +1,19 @@
+# Python / tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Outputs
+checkpoints/
+results/
+wandb/
+
+# Large data (add your dataset path patterns)
+data/synthetic/
+
+# OS
+.DS_Store
+Thumbs.db
