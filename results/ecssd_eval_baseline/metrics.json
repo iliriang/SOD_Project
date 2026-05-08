@@ -1,0 +1,10 @@
+{
+  "iou": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "mae": 0.45810207808752845,
+  "soft_iou": 0.16915434647988445,
+  "median_infer_ms_per_image": 12.755500036291778,
+  "binary_threshold_used": 0.5
+}

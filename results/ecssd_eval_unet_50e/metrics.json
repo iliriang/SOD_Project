@@ -1,0 +1,13 @@
+{
+  "iou": 0.526652772885488,
+  "precision": 0.6500256917298582,
+  "recall": 0.7741546257819875,
+  "f1": 0.6616425675951121,
+  "mae": 0.21487980663930117,
+  "soft_iou": 0.4216079775798577,
+  "median_infer_ms_per_image": 56.45029999999984,
+  "binary_threshold_used": 0.5,
+  "gt_threshold_used": 0.5,
+  "suggested_threshold_for_target_precision": 0.62,
+  "suggested_threshold_for_best_macro_f1": 0.48
+}

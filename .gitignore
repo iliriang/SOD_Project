@@ -7,8 +7,6 @@ venv/
 *.egg-info/
 
 # Outputs
-checkpoints/
-results/
 wandb/
 
 # Large data (add your dataset path patterns)

@@ -1,0 +1,35 @@
+{
+  "ecssd_baseline": {
+    "iou": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "mae": 0.45810207808752845,
+    "soft_iou": 0.16915434647988445,
+    "median_infer_ms_per_image": 12.755500036291778,
+    "binary_threshold_used": 0.5
+  },
+  "ecssd_improved": {
+    "iou": 0.3819018482413586,
+    "precision": 0.5940126473158974,
+    "recall": 0.5804194595285221,
+    "f1": 0.5184955811228644,
+    "mae": 0.3629586721458812,
+    "soft_iou": 0.2620624718435679,
+    "median_infer_ms_per_image": 14.540000003762543,
+    "binary_threshold_used": 0.5
+  },
+  "ecssd_unet_50e": {
+    "iou": 0.526652772885488,
+    "precision": 0.6500256917298582,
+    "recall": 0.7741546257819875,
+    "f1": 0.6616425675951121,
+    "mae": 0.21487980663930117,
+    "soft_iou": 0.4216079775798577,
+    "median_infer_ms_per_image": 56.45029999999984,
+    "binary_threshold_used": 0.5,
+    "gt_threshold_used": 0.5,
+    "suggested_threshold_for_target_precision": 0.62,
+    "suggested_threshold_for_best_macro_f1": 0.48
+  }
+}
